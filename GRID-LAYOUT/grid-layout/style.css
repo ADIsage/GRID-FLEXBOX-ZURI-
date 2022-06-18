@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color: pink;
+    align-items: center;
+    position: sticky;
+}
+    
+.navbar ul{
+    display: flex;
+  list-style:none;
+    margin:20px 0px
+  }
+  .navbar ul il{
+    font-family: sans-serif;
+    font: size 1.1rem;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: darkred;
+    padding: 8px 25px;
+  }
+
+  .navbar ul li a:hover{
+    background-color: #ffff;
+    color: darkred;
+    box-shadow: 0 0 10px #fcfcfc;
+  }
+body{
+    background-color:#fff;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+main{
+    display: grid;
+grid-gap: 10px;
+width: 50%;
+margin: auto;
+/*repeat (3 1fr)*/
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-rows: 100px;
+
+
+
+
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.one{
+    background-color: rgb(233, 17, 17);
+}
+.two{
+    background-color: rgb(47, 31, 229);
+}
+.three{
+    background-color: rgb(29, 237, 18);
+    
+}
+.four{
+    background-color: orange;
+}
+.five{
+    background-color: rgb(169, 86, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

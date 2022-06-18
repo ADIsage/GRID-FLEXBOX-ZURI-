@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color: pink;
+    align-items: center;
+    position: sticky;
+}
+    
+.navbar ul{
+    display: flex;
+  list-style:none;
+    margin:20px 0px
+  }
+  .navbar ul il{
+    font-family: sans-serif;
+    font: size 1.1rem;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: darkred;
+    padding: 8px 25px;
+  }
+
+  .navbar ul li a:hover{
+    background-color: #ffff;
+    color: darkred;
+    box-shadow: 0 0 10px #fcfcfc;
+  }
+body {
+    background-color:hsl(0, 0%, 95%);
+
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+  
+color: hsl(0, 0%, 95%);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold 400px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px;
+    font-weight: lighter;
+}
+
+.first-box{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 50%;
+    
+
+}
+
+.second-box{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 50%;
+}
+.third-box{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 50%;
+}
+button{
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border: none;
+    font-weight:lighter ;
+    
+    
+}
+button:hover {
+    cursor: pointer;
+    background-color:white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    font-weight: bold;
+}
+
+.btn1{
+   color: hsl(31, 77%, 52%);
+
+}
+.btn1:hover{
+    color: hsl(31, 77%, 52%);
+    
+}
+.btn2{
+    color:  hsl(184, 100%, 22%);;
+}
+.btn2:hover{
+    color: hsl(184, 100%, 22%);
+
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+.btn3:hover{
+    color: hsl(179, 100%, 13%);
+}
